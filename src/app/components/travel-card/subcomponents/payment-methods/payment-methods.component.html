@@ -1,8 +1,0 @@
-<div *ngIf="paymentMethods" class="payment__selection">
-    <button *ngFor="let paymentMethod of paymentMethods; let i = index" class="payment__selected">
-        <i [class]="paymentMethod.iconClass" 
-        [ngClass]="{'current__payment': paymentMethod.isActive}"
-        (click)=activePayment(i)></i>
-    </button>
-</div>
-
