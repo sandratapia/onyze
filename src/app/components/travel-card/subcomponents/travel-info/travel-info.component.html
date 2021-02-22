@@ -1,0 +1,18 @@
+<div *ngIf="travelInfo && !hiddenTravelInfo" class="travel__info">
+    <div class="distance">
+        <p><strong>{{ travelInfo.distance }}km</strong></p>
+        <p class="title__travel">Distance</p>
+    </div>
+    <div class="time">
+        <p><strong>{{ travelInfo.time }} min</strong></p>
+        <p class="title__travel">Time</p>
+    </div>
+    <div class="price">
+        <p><strong>${{ travelInfo.price }}</strong></p>
+        <p class="title__travel">Price</p>
+    </div>
+    <div class="energy">
+        <p><strong>{{ travelInfo.energy }}kWh</strong></p>
+        <p class="title__travel">Energy</p>
+    </div>
+</div>

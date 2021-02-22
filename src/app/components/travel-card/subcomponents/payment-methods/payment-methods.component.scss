@@ -1,0 +1,54 @@
+$colorCheck: rgb(30, 0, 201);
+.payment__selection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    @media all and (min-width: 768px){
+        padding: 25px 15px 15px 0;
+        justify-content: flex-end;
+    }
+    @media all and (min-width: 768px){
+        justify-content: center;
+    }
+    .payment__selected{
+        width: auto;
+        height: 90px;
+        border-radius: 10px;
+        margin-left: 8px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        border: 1px solid grey;
+        outline: none;
+        cursor: pointer;
+        @media all and (min-width: 768px){
+            margin-left: 15px;
+        }
+        .fab{
+            font-size: 100px;
+            color: grey;
+            z-index: 11;
+        }
+        .fab:hover{
+            color: rgba(22, 180, 2, 0.4);
+            transition: 0.6s ease-in-out;
+        }
+        .current__payment{
+            color:transparentize($colorCheck, 0.3);
+        }
+    }
+    .payment__selected:nth-child(1n){
+        @media all and (max-width: 425px){
+            margin-top: 15px;
+        }
+    }
+    .payment__selected:nth-child(1n){
+        @media all and (min-width: 768px){
+            margin-top: 15px;
+        }
+    }
+}

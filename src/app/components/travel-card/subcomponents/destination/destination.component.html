@@ -1,0 +1,17 @@
+<div *ngIf="destination" class="destination__complete">
+    <div class="destination__icons">
+        <i class="fas fa-check"></i>
+        <img class="svg" src="assets/images/line.svg" alt="">
+        <i class="fas fa-map-marker-alt pulse"></i>
+    </div>
+    <div class="destination__info">
+        <div class="origin">
+            <p><strong>{{ destination.origin }}</strong></p>
+            <p class="direction">{{ destination.originAddress }}</p>
+        </div>
+        <div class="destination">
+            <p><strong>{{ destination.destination }}</strong></p>
+            <p class="direction">{{ destination.destinationAddress }}</p>
+        </div>
+    </div>
+</div>
