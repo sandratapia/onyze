@@ -1,5 +1,5 @@
 # Onyze
-Hola
+
 _This is a technical test for the Onyze company._
 
 ## Technological stack 🚀
