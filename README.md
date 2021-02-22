@@ -1,27 +1,32 @@
 # Onyze
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+_This is a technical test for the Onyze company._
 
-## Development server
+## Technological stack 🚀
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+_This test has been developing with Angular, Typescript, SCSS and HTML5._
 
-## Code scaffolding
+### Installation 🔧
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+_To start the project, open a terminal in the root folder of your repository and install Angular and Typescript with the following commands:_
 
-## Build
+```
+npm install -g typescript
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```
+npm install -g @angular/cli
+```
 
-## Running unit tests
+_To start the project, you must execute the following command in the console:_
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+ng serve
+```
 
-## Running end-to-end tests
+### Project
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+_In this project three compost cards are shown where the data is dynamically displayed._
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+⌨️ With ❤️ by [SandraTapia](https://github.com/sandratapia) 😊
